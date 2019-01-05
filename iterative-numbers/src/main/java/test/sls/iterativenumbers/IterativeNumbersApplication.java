@@ -1,0 +1,15 @@
+package test.sls.iterativenumbers;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@SpringBootApplication
+public class IterativeNumbersApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IterativeNumbersApplication.class, args);
+	}
+
+}
+
